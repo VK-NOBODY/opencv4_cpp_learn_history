@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="git_opencv_report"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opencv_4.10.0\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\mingw\;CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="git_opencv_report">
+				<Option output="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/git_opencv_report.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="H:/Applications/opencv_4.10.0/opencv/mingw_build/install/include"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0/backward"/>
+					<Add directory="H:/Applications/msys64/mingw64/lib/clang/18/include"/>
+					<Add directory="H:/Applications/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 git_opencv_report"/>
+					<CompileFile command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="git_opencv_report/fast">
+				<Option output="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/git_opencv_report.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="H:/Applications/opencv_4.10.0/opencv/mingw_build/install/include"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="H:/Applications/msys64/mingw64/include/c++/13.2.0/backward"/>
+					<Add directory="H:/Applications/msys64/mingw64/lib/clang/18/include"/>
+					<Add directory="H:/Applications/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 git_opencv_report/fast"/>
+					<CompileFile command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Applications/msys64/mingw64/bin/mingw32-make.exe -f &quot;H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/main.cpp">
+			<Option target="git_opencv_report"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/../../../../opencv_4.10.0/opencv/mingw_build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/../../../../opencv_4.10.0/opencv/mingw_build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/../../../../opencv_4.10.0/opencv/mingw_build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/../../../../opencv_4.10.0/opencv/mingw_build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_opencv_report/../../../../opencv_4.10.0/opencv/mingw_build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv_4.10.0\opencv\mingw_build\install\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

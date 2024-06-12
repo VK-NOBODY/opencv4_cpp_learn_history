@@ -1,0 +1,3 @@
+H:\Applications\JetBrains\JetBrains_Applications\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\git_opencv_report.dir/objects.a
+H:\Applications\msys64\mingw64\bin\llvm-ar.exe qc CMakeFiles\git_opencv_report.dir/objects.a @CMakeFiles\git_opencv_report.dir\objects1.rsp
+H:\Applications\msys64\mingw64\bin\clang++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\git_opencv_report.dir/objects.a -Wl,--no-whole-archive -o git_opencv_report.exe -Wl,--out-implib,libgit_opencv_report.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\git_opencv_report.dir\linkLibs.rsp
